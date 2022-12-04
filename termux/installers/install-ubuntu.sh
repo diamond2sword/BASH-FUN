@@ -224,8 +224,7 @@ pip3_packages=("$PIP3_PACKAGES_FOR_ROOT")
 
 fix_unresolved_hostname_error () {
     config="$ETC_HOSTS_CONFIG"
-    etc_hosts_path="/etc/hosts"
-    echo "$config" > $etc_hosts_path
+    echo "$config" > "/etc/hosts"
 }
 
 install_dependency_packages () {
