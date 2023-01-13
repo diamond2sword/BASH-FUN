@@ -1,10 +1,5 @@
 #!/bin/bash
 (
-
-
-	
-
-
 	main () {
 		(exit
 			create_array hi '$name$index=haha' 9 9
